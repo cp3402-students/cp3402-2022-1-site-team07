@@ -1,4 +1,4 @@
-#Design Selection
+Design Selection Process
 
 To allow all of the group members pitch all of there idea of the website it was decided that we would all create our own sperate designs. 
 This allows for the team to be able to see everyones ideas.

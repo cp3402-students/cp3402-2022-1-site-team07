@@ -12,5 +12,5 @@ The final design we collectively agreed on using Storms Design however incorprat
 ## Softwares Used
 Jack Arnold: PowerPoint  
 Storm Jones: PowerPoint  
-Nishan Bedrossian: ???  
-Boyd Spalding:     ???  
+Nishan Bedrossian: Photoshop
+Boyd Spalding: PowerPoint  

@@ -14,11 +14,27 @@
       <div class="col-md-3">
         <h4>Upcoming Events</h4>
         <ul>
-          <li>2/1/22 – Jazz Night</li>
-          <li>5/1/22 – Committee Meeting</li>
-          <li>9/1/22 – Blah Blah</li>
-          <li>9/1/22 – Idk something about Jazz</li>
-          <li>9/1/22 – InSeRt TiTlE hErE</li>
+		  <?php
+								// Loop for camping trips on this date
+								$args = array(
+									'post_status'=>'publish',
+									'posts_per_page' => 10
+								);
+
+								$post_query = new WP_Query($args);
+
+								if($post_query->have_posts() ) {
+									while($post_query->have_posts() ) {
+										$post_query->the_post();
+										if(!empty(get_the_excerpt()))
+											{
+												echo "
+												<li>".get_the_title()."</li>
+												";
+											}
+									}
+								}
+							?>
         </ul>
       </div>
       <div class="col-md-6">

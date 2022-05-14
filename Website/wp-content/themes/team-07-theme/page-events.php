@@ -20,7 +20,23 @@
 <header>
   <?php require 'header.php'; ?>
 </header>
-<div class="container pb-3"><?php echo the_content(); ?> </div>
+<div class="container pb-3">
+
+
+<h1 class="my-3">List of posts</h1>
+
+
+
+  <a href="#"  class="item row mb-3 my-3 ">
+  <div class="col-sm-2 "> <img class="img-fluid w-100 " src="images/Anthony-and-the-Gentlemen-of-Jazz-.jpg" alt="image"> </div>
+  <div class="col-sm-10 pt-2">
+    <h2>The post title</h2>
+    <p>This is a summary or a small introduction.</p>
+  </div>
+  </a> 
+
+
+</div>
 
 <?php require 'footer.php'; ?>
 <!-- Optional JavaScript --> 

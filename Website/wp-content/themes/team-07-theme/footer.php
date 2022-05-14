@@ -4,11 +4,11 @@
       <div class="col-md-3">
         <h4>Quick links</h4>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="<?php echo get_permalink( get_page_by_path( 'home' ) ); ?>">Home</a></li>
+          <li><a href="<?php echo get_permalink( get_page_by_path( 'events' ) ); ?>">Events</a></li>
+          <li><a href="<?php echo get_permalink( get_page_by_path( 'about' ) ); ?>">About</a></li>
+          <li><a href="<?php echo get_permalink( get_page_by_path( 'gallery' ) ); ?>">Gallery</a></li>
+          <li><a href="<?php echo get_permalink( get_page_by_path( 'contact' ) ); ?>">Contact</a></li>
         </ul>
       </div>
       <div class="col-md-3">

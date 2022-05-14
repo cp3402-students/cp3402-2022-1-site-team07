@@ -1,0 +1,106 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+a, a:hover {
+    color: #c79b00;
+}
+
+
+header {
+    background-color: #000000;
+}
+
+.current {
+    border-bottom: solid 2px #e5c247;
+}
+
+.overlay-dark {
+    background-color: rgba(0, 0, 0, 0.52);
+}
+
+#banner h2 {
+    font-size: 3em;
+}
+
+.card {
+    background-color: transparent !important;
+    border-radius: 0;
+}
+
+.line {
+    border-top: #e5c247 solid 2px;
+    width: 70%;
+}
+
+.btn-outline-warning {
+    border-color: #e5c247;
+}
+
+.map {
+    filter: grayscale(1);
+    display: block;
+}
+
+.aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+.aside li {
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+.aside ul a {
+    border-bottom: solid 1px #cccccc;
+    display: block;
+}
+
+.aside ul a:hover {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer {
+    line-height: 2;
+}
+
+.footer h4 {
+    color: #e5c247;
+    margin-bottom: 1em;
+}
+
+.footer ul li a, .footer li {
+    font-size: 0.9em;
+    color: #ffffff;
+}
+
+.social-footer a {
+    color: #e5c247;
+    font-size: 1.15em;
+}
+
+.item {
+    border-bottom: solid 2px #ccc;
+}
+
+.item:hover {
+    background-color: #f2f2f2;
+    text-decoration: none;
+}
+
+.item p {
+    color: #000000;
+}

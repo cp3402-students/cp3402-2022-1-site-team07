@@ -26,14 +26,34 @@
 <h1 class="my-3">List of posts</h1>
 
 
+<?php
+								// Loop for camping trips on this date
+								$args = array(
+									'post_status'=>'publish',
+									'posts_per_page' => 10
+								);
 
-  <a href="#"  class="item row mb-3 my-3 ">
-  <div class="col-sm-2 "> <img class="img-fluid w-100 " src="images/Anthony-and-the-Gentlemen-of-Jazz-.jpg" alt="image"> </div>
-  <div class="col-sm-10 pt-2">
-    <h2>The post title</h2>
-    <p>This is a summary or a small introduction.</p>
-  </div>
-  </a> 
+								$post_query = new WP_Query($args);
+
+								if($post_query->have_posts() ) {
+									while($post_query->have_posts() ) {
+										$post_query->the_post();
+										if(!empty(get_the_excerpt()))
+											{
+												echo "
+												<a href='".get_permalink()."'  class='item row mb-3 my-3 '>
+												  <div class='col-sm-2 '> <img class='img-fluid w-100 ' src='".get_the_post_thumbnail_url()."' alt='image'> </div>
+												  <div class='col-sm-10 pt-2'>
+													<h2>".get_the_title()."</h2>
+													<p>".get_the_excerpt()."</p>
+												  </div>
+												  </a> 
+												";
+											}
+									}
+								}
+							?>
+  
 
 
 </div>

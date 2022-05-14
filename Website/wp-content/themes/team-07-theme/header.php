@@ -15,8 +15,5 @@
     </div>
   </nav>
   <script>
-	$(document).ready(function()
-	{
-		$(".nav-link.<?php echo the_title(); ?>").addClass("current");
-	});
+	var pageName = "<?php echo the_title(); ?>";
   </script>

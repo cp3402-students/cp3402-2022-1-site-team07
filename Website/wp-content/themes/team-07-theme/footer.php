@@ -39,3 +39,9 @@
 	<p class="social-footer text-center mt-5" > <a class="mr-3" href="#"><i class="fa-brands fa-facebook"></i> Facebook</a> <a class="mr-3"  href="#"><i class="fa-solid fa-envelope"></i> Email Us</a></p>
   <p class="text-center ">&copy;2022 Team 07</p>
 </div>
+  <script>
+	$(document).ready(function()
+	{
+		$(".nav-link."+pageName+"").addClass("current");
+	});
+  </script>

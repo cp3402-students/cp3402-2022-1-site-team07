@@ -5,12 +5,12 @@ In order to make the deployment process streamlined this document was created in
 
 ### Messaging Software
 For communication we use Discord & Slack to have meetings as well as be able to have a direct line of messaging where a team member can ask questions about the project and other members can proved the answer in a quick manner.  
-- [Slack](https://slack.com/intl/en-au/downloads/windows "Download Slack")  
-- [Discord](https://discord.com/download "Download Discord")  
+#### [Slack](https://slack.com/intl/en-au/downloads/windows "Download Slack") &  [Discord](https://discord.com/download "Download Discord")  
+
 These messaging software were selected as we all already used them and all for efficient communication; which increases workflow & removes the need to meet in person. [Slack](https://slack.com/intl/en-au/downloads/windows "Download Slack")  & [Discord](https://discord.com/download "Download Discord")  are also important as it allows for the team to be able to send and receive important documents.   
 
 ### Workflow Management
-- [Trello](https://trello.com/b/qLl13NjG/cp3402-2022-1-site-team07 "Team07 Trello")  
+#### [Trello](https://trello.com/b/qLl13NjG/cp3402-2022-1-site-team07 "Team07 Trello")  
 To manage the Workflow of the project it was decided to use Trello. Trello is a popular, simple, and easy-to-use collaboration tool that enables you to organize projects and everything related to them into boards. Trello makes working through the project far more doable as it breaks down the tasks and members are able to mark off what has been down and what they are struggling with. 
 
 
@@ -18,9 +18,8 @@ To manage the Workflow of the project it was decided to use Trello. Trello is a 
 ## Version Control  
 The purpose of version control is to allow software teams track changes to the code, while enhancing communication and collaboration between team members. Version control facilitates a continuous, simple way to develop software. Version control also allows looking at previous versions.  
 
+#### [GitHub](https://github.com/ "GitHub") & [VSCode- Github Plugin](https://code.visualstudio.com/docs/editor/github "Download GitHub Plugin") 
 For the version control software, it was decided that Github would be used as it is the most commonly used version control software & all of the team members had experience using it.    
-- [GitHub](https://github.com/ "GitHub")
-- [VSCode- Github Plugin](https://code.visualstudio.com/docs/editor/github "Download GitHub Plugin")  
 
 
 ## Testing & Automation

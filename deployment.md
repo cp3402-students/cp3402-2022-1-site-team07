@@ -1,5 +1,4 @@
 # Deployment
-In order to make the deployment process streamlined this document was created in order to describe the deployment process in enough detail that a new team member or someone taking over the project could follow. To successfully develop theme updates locally, be able to test and deploy them to your staging and live sites.  
 
 ## Project Management
 

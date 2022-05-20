@@ -48,7 +48,7 @@
         <p><?php echo get_field_object( 'underspotlight_time' )['value']; ?></p>
       </div>
       <div class="col-4 text-center"> <i class="fa-solid fa-calendar-week fa-5x"></i>
-        <h3 class="pt-3">Date??</h3>
+        <h3 class="pt-3">Date?</h3>
         <p><?php echo get_field_object( 'underspotlight_date' )['value']; ?></p>
       </div>
     </div>

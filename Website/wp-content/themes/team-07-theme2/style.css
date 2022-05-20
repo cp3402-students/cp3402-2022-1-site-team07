@@ -98,7 +98,7 @@ a, a:hover {
     line-height: 2;
 }
 
-#wrapper-footer-full h4, h3 {
+#wrapper-footer-full h4, #wrapper-footer-full h3 {
     color: #e5c247;
     margin-bottom: 1em;
     font-size: 1.5rem;

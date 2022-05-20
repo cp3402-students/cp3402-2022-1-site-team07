@@ -129,4 +129,5 @@ a, a:hover {
 
 .tribe-events .tribe-events-c-search__button:focus, .tribe-events .tribe-events-c-search__button:hover, .tribe-events .tribe-events-c-search__button, .tribe-events .tribe-events-c-search__button {
     background-color: #e2c044;
+    color: #000000;
 }

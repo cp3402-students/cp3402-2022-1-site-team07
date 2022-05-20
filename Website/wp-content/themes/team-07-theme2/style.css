@@ -31,7 +31,9 @@ a, a:hover {
     background-color: #000000;
 }
 
-.navbar-brand img {max-width: 100px;}
+.navbar-brand img {
+    max-width: 100px;
+}
 
 .current {
     border-bottom: solid 2px #e5c247;
@@ -84,7 +86,7 @@ a, a:hover {
 
 #wrapper-footer-full, .footer {
     background-color: #000000;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 #wrapper-footer-full ul {
@@ -96,9 +98,10 @@ a, a:hover {
     line-height: 2;
 }
 
-#wrapper-footer-full h4 {
+#wrapper-footer-full h4, h3 {
     color: #e5c247;
     margin-bottom: 1em;
+    font-size: 1.5rem;
 }
 
 #wrapper-footer-full ul li a, .footer li {

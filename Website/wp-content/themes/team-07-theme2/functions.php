@@ -211,7 +211,7 @@ add_action( 'init', 'cptui_register_my_cpts_band' );
 function cptui_register_my_taxes() {
 
     /**
-     * Taxonomy: Members.
+     * Taxonomy: Members..
      */
 
     $labels = [
@@ -327,4 +327,5 @@ function cptui_register_my_taxes_members() {
     ];
     register_taxonomy( "members", [ "band" ], $args );
 }
+
 add_action( 'init', 'cptui_register_my_taxes_members' );

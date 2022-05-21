@@ -252,3 +252,7 @@ function cptui_register_my_taxes() {
     register_taxonomy( "members", [ "band" ], $args );
 }
 add_action( 'init', 'cptui_register_my_taxes' );
+
+
+// Fix 404 error for custom posts
+flush_rewrite_rules( false );

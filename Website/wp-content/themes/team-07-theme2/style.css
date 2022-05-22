@@ -144,4 +144,7 @@ a, a:hover {
     color: #000000;
 }
 
-.bands img{width: 100%;}
+.bands img {
+    width: 100%;
+    margin-bottom: 20px;
+}

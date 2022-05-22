@@ -144,7 +144,11 @@ a, a:hover {
     color: #000000;
 }
 
-.bands img {
+.bands img, bands img {
     width: 100%;
     margin-bottom: 20px;
+}
+
+.band entry-meta {
+    display: none;
 }

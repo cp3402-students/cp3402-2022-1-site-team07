@@ -25,15 +25,11 @@ get_header();
         <div class="card-img-overlay text-white  d-flex align-items-center justify-content-center align-items-end overlay-dark">
             <div class="col-lg-6  col-md-12 d-md-block d-none my-4 p-5">
                 <div class="card-body">
-                    <h2 class="card-title text-center">Welcome To <br>
-                        Townsville Jazz Club</h2>
+                    <h2 class="card-title text-center"><?php the_field('homepage_banner_heading');?></h2>
                     <hr class="line">
-                    <p class="card-text text-center">Our friendly and relaxed club has a strong history of supporting
-                        jazz in Townsville and has made a great contribution to the Townsville Arts and Music Community
-                        over many years. We encourage new guests to become members and to actively participate in the
-                        club’s functions. <br>
+                    <p class="card-text text-center"><?php the_field('homepage_banner_paragraph'); ?><br>
                         <br>
-                        <a class="btn btn-outline-warning text-center btn-lg">Learn more</a></p>
+                        <a class="btn btn-warning text-center btn-lg" href= "<?php the_field('homepage_banner_button_text_url'); ?>"><?php echo get_field_object('homepage_banner_button_text')['value']; ?></a></p>
                 </div>
             </div>
         </div>
@@ -59,11 +55,11 @@ get_header();
     </div>
     <div class="container">
         <div class="row py-5">
-<!--            <div class="col-md-6 mb-3">-->
-<!--                <img class="img-fluid"-->
-<!--                     src="--><?php //echo get_bloginfo('template_directory'); ?><!--/Images/Anthony-and-the-Gentlemen-of-Jazz-.jpg"-->
-<!--                     alt="Anthony-and-the-Gentlemen-of-Jazz">-->
-<!--            </div>-->
+            <!--            <div class="col-md-6 mb-3">-->
+            <!--                <img class="img-fluid"-->
+            <!--                     src="--><?php //echo get_bloginfo('template_directory'); ?><!--/Images/Anthony-and-the-Gentlemen-of-Jazz-.jpg"-->
+            <!--                     alt="Anthony-and-the-Gentlemen-of-Jazz">-->
+            <!--            </div>-->
             <div class="col-md-12 mb-3">
 
                 <?php

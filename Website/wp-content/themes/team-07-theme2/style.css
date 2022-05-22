@@ -30,6 +30,10 @@ a, a:hover {
     color: #c79b00;
 }
 
+a.dropdown-item:active {
+    background-color: #e9ecef;
+    color: #000;
+}
 
 #wrapper-navbar {
     background-color: #000000;

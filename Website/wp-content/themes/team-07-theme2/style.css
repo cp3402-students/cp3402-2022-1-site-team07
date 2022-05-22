@@ -148,7 +148,7 @@ a.dropdown-item:active {
     color: #000000;
 }
 
-.bands img, .band img {
+.bands img, .band img, .post img{
     width: 100%;
     margin-bottom: 20px;
 }

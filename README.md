@@ -34,7 +34,11 @@ In order to make the deployment process streamlined this document was created in
 
 ## [Developing Theme](https://github.com/cp3402-students/cp3402-2022-1-site-team07/blob/main/deployment.md "Developing Theme")
 
+This documentation explains how the theme was created, and all the design decisions.
+
 ## [Managing The Site](https://github.com/cp3402-students/cp3402-2022-1-site-team07/blob/main/site.md "Managing The Site") 
+
+This documentation explains how to edit the sites details. It also explains all of the Plugins that have been used for the website.
 
 ## Linkedin Reports  
 

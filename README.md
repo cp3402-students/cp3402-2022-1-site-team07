@@ -45,6 +45,6 @@ This documentation explains how to edit the sites details. It also explains all 
 These are all of our LinkedIn Reports about the Project.  
 
 - [Jack Arnold](https://www.linkedin.com/in/jack-arnold-a933a7215/ "Jack Arnold Linkedin")
-- [Storm Jones](https://www.google.com "Storm Jones Linkedin")
-- [Nishan Bedrossian](https://www.google.com "Nishan Bedrossian Linkedin")
+- [Storm Jones](https://www.linkedin.com/in/joe-blow-1346a223b/ "Storm Jones Linkedin")
+- [Nishan Bedrossian](https://www.linkedin.com/in/marcus-petersons-81180a23b/?originalSubdomain=au "Nishan Bedrossian Linkedin")
 - [Boyd Spalding](https://www.linkedin.com/in/brad-williams-42a37923a/ "Boyd Spalding Linkedin")

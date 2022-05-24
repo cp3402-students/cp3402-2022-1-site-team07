@@ -28,10 +28,6 @@ When done, click the Publish button in the top right corner of the editor to pub
 
 ACF field builder allows you to quickly and easily add fields to WP edit screens with ease. ACF Fields can be added all over WP including posts, users, taxonomy terms, media, comments and custom options pages. custom field values can be used in any theme template file with hassle free developer friendly functions.
 
-#### [Colorlib 404 Customizer](https://wordpress.org/plugins/colorlib-404-customizer/ "Colorlib 404 Customizer")
-
-Colorlib 404 Customizer is a WordPress plugin that allows developers to create a custom and stylish 404 page quickly via the Live Customizer.
-
 #### [The Events Calendar](https://theeventscalendar.com/ "The Events Calendar")
 
 The Events Calendar makes it easy to create and manage an events calendar on a WordPress site with The Events Calendar. Whether the events are in-person or virtual events, this WordPress calendar plugin boasts professional features backed by our world-class team of developers and designers.

@@ -156,3 +156,9 @@ a.dropdown-item:active {
 .band .entry-meta {
     display: none;
 }
+
+a.btn.btn-secondary.understrap-read-more-link {
+    background-color: #e2c044;
+    color: #000;
+    border: 0;
+}
